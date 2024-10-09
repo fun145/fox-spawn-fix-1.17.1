@@ -2,11 +2,15 @@ package com.fun145.foxspawnfix;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.loader.api.FabricLoader;
+import net.fabricmc.loader.api.ModContainer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class FoxSpawnFix implements ModInitializer {
 	public static final String MOD_ID = "foxspawnfix";
+	public static final String FOXSPAWNFIX_DATAPACK_PATH ="foxspawnfix";
+	public static final ModContainer MOD_CONTAINER = FabricLoader.getInstance().getModContainer(MOD_ID).orElseThrow();
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
