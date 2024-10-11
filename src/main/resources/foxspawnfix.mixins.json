@@ -3,6 +3,7 @@
 	"package": "com.fun145.foxspawnfix.mixin",
 	"compatibilityLevel": "JAVA_16",
 	"mixins": [
+		"AnimalMixinFixFoxSpawnMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
