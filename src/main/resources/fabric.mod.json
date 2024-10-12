@@ -3,9 +3,9 @@
 	"id": "foxspawnfix",
 	"version": "${version}",
 	"name": "fox Spawn Fix",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Simple mod allowing foxes to spawn on snow blocks, podzol, grass and coarse dirt like in 1.18",
 	"authors": [
-		"Me!"
+		"fun145"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
