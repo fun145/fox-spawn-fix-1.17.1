@@ -46,7 +46,7 @@ public abstract class AnimalMixinFixFoxSpawnMixin extends PassiveEntity {
         if(isFoxType(type)){
             boolean foxCanSpawn = canFoxSpawnOn( world, pos);
             if(foxCanSpawn){
-            cir.setReturnValue(foxCanSpawn);
+            cir.setReturnValue(true);
             }
         }
     }
